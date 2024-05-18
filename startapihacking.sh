@@ -45,7 +45,8 @@ sudo ln ./Postman/app/postman /usr/local/bin/postman
 
 ### Installing mitmproxy2swagger
 echo "Installing mitmproxy2swagger"
-sudo pip install mitmproxy2swagger
+pip install mitmproxy2swagger
+sudo ln ~/.local/bin/mitmproxy2swagger /usr/local/bin/mitmproxy2swagger
 
 ## Setting Up the labs
 echo "Setting up the labs"
